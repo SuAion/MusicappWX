@@ -1,0 +1,14 @@
+<!--pages/songlist/songlist.wxml-->
+<block wx:for="{{CurList}}" wx:key= "no"  > 
+    <view bindtap='PlaysongReady'  data-index='{{index}}' >
+      <image   style="width: 200rpx; height:200rpx;  background-color: #eeeeee;" src="{{zyip+item.songImg}}"></image>
+      <text >{{item.listName}}</text> 
+    </view>
+</block> 
+
+<!-- 
+ "songName" : "讲真的",
+    "singer" : "曾惜",
+    "album" : "曾惜同名专辑",
+    "songImg" : "/imgs/songImg/song1.jpg",
+    "songUrl" : "/music/讲真的.mp3" -->

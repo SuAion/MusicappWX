@@ -1,0 +1,4 @@
+<!--pages/player/player.wxml-->
+<text>自动播放系列</text>
+<button bindtap='preSong' >上一曲</button>
+<button  bindtap='nextSong' >下一曲</button>
